@@ -5,9 +5,10 @@
       "name": "languages",
       "permissions": "drwxr-xr-x",
       "items": [
-        "Golang",
+        "Python",
+        "C/C++",
         "Java",
-        "Python"
+        "Golang"
       ]
     },
     {
@@ -15,58 +16,93 @@
       "permissions": "drwxr-xr-x",
       "items": [
         "Spring Boot",
-        "FastAPI"
+        "Django",
+        "Flask",
+        "Node.js",
+        "React",
+        "RabbitMQ",
+        "Apache Kafka"
+      ]
+    },
+    {
+      "name": "web",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "networking",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "TCP/IP",
+        "UDP",
+        "Ethernet",
+        "HTTP",
+        "NETCONF",
+        "Server-Sent Events",
+        "WebSocket",
+        "REST",
+        "JSON",
+        "XML",
+        "YAML"
+      ]
+    },
+    {
+      "name": "databases",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "name": "devops",
+      "permissions": "drwxr-xr-x",
+      "items": [
+        "Git",
+        "Linux",
+        "Bash",
+        "Docker",
+        "Jenkins",
+        "Kubernetes",
+        "Azure",
+        "AWS (EC2, S3, Lambda)",
+        "CI/CD"
       ]
     },
     {
       "name": "tools",
       "permissions": "drwxr-xr-x",
       "items": [
-        "AWS",
-        "Docker",
-        "Jenkins",
-        "Git",
-        "MySQL",
-        "Redis",
-        "RabbitMQ",
-        "Prometheus",
-        "Grafana",
+        "JIRA",
+        "CLI",
+        "Selenium",
         "JUnit",
-        "MockMvc",
-        "Maven"
+        "Matplotlib",
+        "Debugging",
+        "Log Analysis",
+        "MATLAB",
+        "Cursor",
+        "Copilot"
       ]
     },
     {
-      "name": "technical",
+      "name": "ai_ml",
       "permissions": "drwxr-xr-x",
       "items": [
-        "Microservices",
-        "REST API Development",
-        "API Design",
-        "Backend Services",
-        "Service Integration",
-        "Data Processing",
-        "Containerization",
-        "CI/CD",
-        "Caching",
-        "Asynchronous Processing",
-        "Distributed Systems",
-        "TCP/IP",
-        "NETCONF",
-        "XML",
-        "LLM Integration",
-        "NLP-based Processing",
-        "Log Analysis",
-        "Logging",
-        "Alerting",
-        "Observability",
-        "Unit Testing",
-        "Integration Testing",
-        "Concurrency",
-        "System Design",
-        "Performance Optimization",
-        "Scalability",
-        "Fault Tolerance"
+        "Generative AI",
+        "LLMOps",
+        "Model Fine-Tuning (LoRA, GPTQ)",
+        "Vector Databases",
+        "LangChain",
+        "LangGraph",
+        "RAG Architecture"
       ]
     }
   ],
