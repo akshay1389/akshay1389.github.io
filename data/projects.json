@@ -3,12 +3,14 @@
   "projects": [
     {
       "name": "creditcardfrauddetection-mlops",
-      "description": "End-to-end MLOps pipeline for credit card fraud detection with model training, containerized deployment, and automated monitoring using Python and Docker.",
+      "description": "End-to-end credit card fraud detection system with MLOps pipeline. Supports Logistic Regression, Random Forest, and XGBoost models with natural language explanations via LangChain/OpenAI. Features risk segmentation, Docker containerization, and DVC for data versioning.",
       "technologies": [
         "Python",
+        "Flask",
+        "XGBoost",
         "Docker",
-        "MLOps",
-        "Machine Learning"
+        "DVC",
+        "LangChain"
       ],
       "stars": 0,
       "forks": 0,
@@ -19,11 +21,13 @@
     },
     {
       "name": "email-phishing-detection",
-      "description": "NLP-based email phishing detection system using Python for automated classification of malicious emails and threat analysis.",
+      "description": "Advanced email phishing analyzer that inspects .eml/.msg files using multi-layered analysis: SPF/DKIM/DMARC header checks, URL extraction with typosquatting detection, attachment hashing with OCR via Tesseract, VirusTotal API integration, and AI-powered scoring (0-10) with CLEAN/SUSPICIOUS/MALICIOUS verdicts.",
       "technologies": [
         "Python",
+        "VirusTotal API",
+        "OCR",
         "NLP",
-        "Machine Learning"
+        "SQLite"
       ],
       "stars": 0,
       "forks": 0,
@@ -34,26 +38,48 @@
     },
     {
       "name": "stockastic",
-      "description": "Stock market analysis and forecasting tool using stochastic models and data visualization for financial trend prediction.",
+      "description": "ML-powered stock price prediction app built with Streamlit. Fetches real-time data via YFinance, trains ARIMA models from StatsModels, and generates multi-day forecasts with interactive Plotly charts. Includes backtesting capabilities for model validation.",
       "technologies": [
         "Python",
-        "Jupyter Notebook",
-        "Data Science"
+        "Streamlit",
+        "ARIMA",
+        "YFinance",
+        "Plotly"
       ],
       "stars": 0,
       "forks": 0,
-      "language": "Jupyter Notebook",
+      "language": "Python",
       "liveUrl": "",
       "githubUrl": "https://github.com/akshay1389/stockastic",
       "isNew": false
     },
     {
+      "name": "socialecho",
+      "description": "Full-stack social networking platform with automated NLP-based content moderation. Uses Perspective API for toxicity detection, TextRazor for categorization, and Hugging Face BART for zero-shot classification. Includes context-based authentication, posts, comments, likes, and follow system.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Flask",
+        "Hugging Face",
+        "Docker"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "language": "JavaScript",
+      "liveUrl": "",
+      "githubUrl": "https://github.com/akshay1389/socialecho",
+      "isNew": false
+    },
+    {
       "name": "time-series-forecasting-python",
-      "description": "Time series forecasting models built in Python for analyzing temporal data patterns and generating predictive insights.",
+      "description": "Comprehensive time series analysis and forecasting tutorial using the Beijing air quality dataset. Covers decomposition, stationarity tests (Dickey-Fuller, AC/PAC plots), transforms (differencing, log scale, smoothing), and models including AR, MA, and ARIMA.",
       "technologies": [
         "Python",
         "Jupyter Notebook",
-        "Time Series"
+        "StatsModels",
+        "Pandas",
+        "Matplotlib"
       ],
       "stars": 0,
       "forks": 0,
@@ -64,12 +90,13 @@
     },
     {
       "name": "jwt-express-typeorm",
-      "description": "JWT authentication system with Express.js and TypeORM for building secure REST API backends with role-based access control.",
+      "description": "Enterprise-grade REST API starter with stateless JWT authentication and role-based authorization. Built with TypeScript, Express.js, and TypeORM with SQLite, designed as a base template for scalable backend services.",
       "technologies": [
         "TypeScript",
         "Express.js",
+        "TypeORM",
         "JWT",
-        "TypeORM"
+        "SQLite"
       ],
       "stars": 0,
       "forks": 0,
@@ -79,19 +106,20 @@
       "isNew": false
     },
     {
-      "name": "socialecho",
-      "description": "Full-stack social media application with real-time messaging, user authentication, and containerized deployment.",
+      "name": "mern-ecommerce-rishi",
+      "description": "Full-stack e-commerce application with product reviews, wishlists, order management, shopping cart, and admin panel. Features secure OTP-based authentication, password reset, and Redux Toolkit state management with Material UI frontend.",
       "technologies": [
-        "JavaScript",
-        "Python",
-        "Docker",
-        "CSS"
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Redux Toolkit",
+        "Material UI"
       ],
       "stars": 0,
       "forks": 0,
       "language": "JavaScript",
       "liveUrl": "",
-      "githubUrl": "https://github.com/akshay1389/socialecho",
+      "githubUrl": "https://github.com/akshay1389/mern-ecommerce-rishi",
       "isNew": false
     }
   ]
